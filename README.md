@@ -7,6 +7,25 @@ Based on DFS and BFS, you can flexibly select the 'main' function, which is enab
 一个文本文件，存放mxn大小的矩阵，以1代表墙壁，0代表可通行的路，求从左上角到右下角的路径 
 基于DFS和BFS，可以在`main`函数灵活选择，默认都启用 
 
+### 截图  
+- 深度优先搜索过程
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/53e8e9f6-91c6-43a7-918e-0f8d7f85ea9b)
+- 广度优先搜索过程
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/e4b6ee7a-f24a-4aa4-a78f-918cbe3acfe6)
+- 搜索无解迷宫
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/fdd48131-eaa7-4e4c-84b8-b01e12209d40)
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/7acbf2e6-f126-4df9-b246-f6cce149d18e)
+
+### Screenshots  
+- DFS
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/53e8e9f6-91c6-43a7-918e-0f8d7f85ea9b)
+- BFS
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/e4b6ee7a-f24a-4aa4-a78f-918cbe3acfe6)
+- no resolution situition
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/fdd48131-eaa7-4e4c-84b8-b01e12209d40)
+  ![image](https://github.com/Gardeniafa/dfs-bfs-maze-solver/assets/127291502/7acbf2e6-f126-4df9-b246-f6cce149d18e)
+
+
 ### 说明 
 - 编写平台为Windows11和Clion 2023.2.2，由于一些未知原因，Clion改变编码方式后出现问题，故此处在`CMakeLists.txt`文件定义了宏`ON_CLION_CONSOLE`，若发现Clion控制台出现了无法读入重定向输入的情况，请照此编写cmake
 - 部分地方有待优化
