@@ -1,0 +1,9 @@
+/cmake-build-debug/
+/cmake-build-debug-mingw/
+/cmake-build-debug-visual-studio/
+/cmake-build-release/
+/stdin.in
+/test.c
+/utils.c
+/utils.h
+/.idea
